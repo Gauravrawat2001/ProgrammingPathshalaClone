@@ -1,0 +1,886 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <link href="./dist/output.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header class="text-gray-600 body-font ">
+        <div class="container mx-auto  flex flex-wrap p-4 px-3 py-4 flex-col md:flex-row items-center">
+            <a class="flex title-font  items-center text-gray-900 mb-4 md:mb-0">
+                <img class="w-64 ml-2 " src="images/pplogo2.png" alt="" srcset="">
+                <!-- <span class="ml-3 text-xl">Tailblocks</span> -->
+            </a>
+            <nav
+                class="md:ml-auto font-lg font-semibold md:mr-auto  flex flex-wrap items-center text-base justify-center">
+                <a type="button" class="inline-flex mr-6 text-base  text-gray-600 " id="menu-button"
+                    aria-expanded="true" aria-haspopup="true">
+                    Explore Courses
+                    <!-- Heroicon name: mini/chevron-down -->
+                    <svg class=" ml-1 h-5 w-5 mt-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
+                        fill="currentColor" aria-hidden="true">
+                        <path fill-rule="evenodd"
+                            d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+                            clip-rule="evenodd" />
+                    </svg>
+                </a>
+                <a class="mr-6 hover:text-gray-900">Success Stories</a>
+                <a class="mr-6 hover:text-gray-900">Hire From Us</a>
+                <a class="mr-6 hover:text-gray-900">Campus Program</a>
+                <a class="mr-6 hover:text-gray-900"> Blogs</a>
+            </nav>
+            <div class="mr-8">
+                <button class="inline-flex items-center font-semibold text-blue-600 py-1 px-3 text-xl mt-4 md:mt-0">Log
+                    In
+                </button>
+                <button
+                    class="inline-flex bg-gradient-to-r from-blue-700 to-neutral-400 text-white items-center font-semibold rounded-md text-xl h-12  px-6 mt-4 md:mt-0">Start
+                    Free Trial
+                </button>
+            </div>
+
+
+        </div>
+        <hr class="">
+    </header>
+    <!-- Header Section -->
+
+    <!-- Hero Section -->
+    <section class="text-gray-600 body-font flex">
+        <div class="container px-32 py-12 mx-auto flex items-center w-5/6">
+            <div class="lg:w-3/5 md:w-1/2 md:pr-16 lg:pr-0 pr-0  z-0 ">
+                <h1 class="title-font  text-5xl font-semibold text-gray-600">Be a Top
+                </h1>
+                <h1 class=" text-5xl py-6 font-semibold text-blue-800 "> Software Engineer </h1>
+                <div class="flex flex-wrap py-10">
+                    <img src="images/comapany_logo.png" class="">
+                </div>
+                <button
+                    class="text-white bg-indigo-500 border-0 py-3 px-8 focus:outline-none hover:bg-indigo-600 rounded font-bold text-lg">Start
+                    Learning For Free</button>
+
+                <p class="leading-relaxed mt-10 fon-lg">Watch 100+ free lectures. No commitment, cancel anytime.</p>
+            </div>
+        </div>
+        <div style="top:110px; width: 410px;"
+            class=" absolute  bg-white z-20 ring-1 rounded-lg p-6 py-8  flex flex-col md:ml-auto w-96 h-4/6  right-36 md:mt-0">
+            <span class="text-gray-600 text-center ">Stuck in your career? We are here! </span>
+            <h2 class="text-slate-600 text-xl text-center  font-bold title-font mb-5">Get a Free 1-1 Career Counsel</h2>
+            <div class="relative mb-2 py-3">
+                <!-- <label for="full-name" class="leading-7 text-sm text-gray-600">Full Name</label> -->
+                <input type="text" id="full-name" placeholder="Name *" name="full-name" required
+                    class="w-full h-14 bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-lg outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+            </div>
+            <div class="relative mb-2 py-3">
+                <!-- <label for="full-name" class="leading-7 text-sm text-gray-600">Full Name</label> -->
+                <input type="email" id="email" placeholder="Email *" name="email" required
+                    class="w-full h-14 bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-lg outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+            </div>
+            <div class="relative mb-4 py-3">
+                <!-- <label for="full-name" class="leading-7 text-sm text-gray-600">Full Name</label> -->
+                <input type="tel" maxlength="10" placeholder="Phone Number *" required
+                    class="w-full h-14 bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-lg outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+            </div>
+
+
+            <button
+                class="text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded font-bold text-lg">Book
+                a Call Now
+            </button>
+
+        </div>
+        <div class="w-80 z-10  bg-gradient-to-b from-indigo-900 via-purple-500 to-white"></div>
+    </section>
+
+    <!-- Hero Section -->
+
+    <!-- Explore Course -->
+    <section class="text-gray-600 body-font">
+        <div class="text-center">
+            <h1 class="title-font text-3xl font-bold  text-gray-600 mb-3 py-2">Explore Courses</h1>
+            <p class="leading-relaxed text-lg ">Designed for both students and working professionals to crack their
+                dream Software Engineering <br> Roles at Top Product Based Companies.</p>
+            <div class="container px-24 py-24 mx-auto justify-around ">
+                <div class="flex flex-wrap justify-around -mr-6 px-10">
+                    <div class="p-5  md:w-1/3">
+                        <div class="h-full ring-1 ring-gray-300 rounded-xl overflow-hidden">
+                            <img class="lg:h-72  md:h-40 w-full object-cover object-center"
+                                src="images/renCourseImg.jpg" alt="blog">
+                            <div class="p-6">
+                                <h1 class="title-font text-2xl text-start font-bold text-gray-600 mb-3">Renaissance for
+                                    Coding
+                                    Interviews</h1>
+                                <p class="leading-relaxed mb-3 text-start items-start py-4">Master Data Structures &
+                                    Algorithms and System Design.
+                                    Crack Top-notch Tech roles.</p>
+                                <div class="flex items-center flex-wrap ">
+                                    <a
+                                        class="text-indigo-600 inline-flex text-xl font-bold items-center md:mb-2 lg:mb-0">Know
+                                        More
+                                        <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor"
+                                            stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M5 12h14"></path>
+                                            <path d="M12 5l7 7-7 7"></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="p-5 md:w-1/3">
+                        <div class="h-full ring-1 ring-gray-300 rounded-xl overflow-hidden">
+                            <img class="lg:h-72  md:h-40 w-full object-cover object-center"
+                                src="images/LLdcourseImg.jpg" alt="blog">
+                            <div class="p-6">
+                                <h1 class="title-font text-2xl text-start font-bold text-gray-600 mb-3">Low Level Design
+                                    for Professionals</h1>
+                                <p class="leading-relaxed mb-3 text-start py-4">Design and write highly extensible,
+                                    maintainable and readable code. Mandatory skill for Senior Engineers.</p>
+                                <div class="flex items-center flex-wrap ">
+                                    <a
+                                        class="text-indigo-600 inline-flex text-xl font-bold items-center md:mb-2 lg:mb-0">Know
+                                        More
+                                        <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor"
+                                            stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M5 12h14"></path>
+                                            <path d="M12 5l7 7-7 7"></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="p-5 md:w-1/3">
+                        <div class="h-full ring-1 ring-gray-300 rounded-xl overflow-hidden">
+                            <img class="lg:h-72  md:h-40 w-full object-cover object-center"
+                                src="images/beginwithC++Img.jpg" alt="blog">
+                            <div class="p-6">
+                                <h1 class="title-font text-start text-2xl font-bold text-gray-600 mb-3">Begin with
+                                    Programming in C++</h1>
+                                <p class="leading-relaxed mb-3 text-start py-4">A practical and hands-on course for
+                                    those who are eager to master C++. Beginner-friendly.</p>
+                                <div class="flex items-center flex-wrap ">
+                                    <a class="text-zinc-400 inline-flex text-xl font-bold items-center md:mb-2 lg:mb-0">Coming
+                                        Soon
+
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- Explore Course -->
+
+    <!-- Our IMPACT -->
+    <section class="text-center">
+        <div>
+            <h1 class="title-font text-xl font-bold  text-indigo-600 mb-3 ">Our Impact</h1>
+            <h1 class="text-gray-600 font-bold font-sans space-x-2 text-4xl ">Learn with definite outcomes</h1>
+        </div>
+
+        <section class="text-gray-600 body-font">
+            <div class="container px-44 py-24 mx-auto">
+                <div class="flex flex-wrap -m-4 text-center">
+                    <div class="p-4 sm:w-1/4 w-1/2">
+                        <h2 class="title-font  font-bold  text-4xl text-indigo-600">16 LPA+</h2>
+                        <p class="leading-relaxed py-2 text-lg">Average CTC</p>
+                    </div>
+                    <div class="p-4 sm:w-1/4 w-1/2">
+                        <h2 class="title-font  font-bold  text-4xl text-indigo-600">300%</h2>
+                        <p class="leading-relaxed py-2 text-lg">Average Increment</p>
+                    </div>
+                    <div class="p-4 sm:w-1/4 w-1/2">
+                        <h2 class="title-font  font-bold  text-4xl text-indigo-600">7500+</h2>
+                        <p class="leading-relaxed py-2 text-lg">Students Enrolled</p>
+                    </div>
+                    <div class="p-4 sm:w-1/4 w-1/2">
+                        <h2 class="title-font font-bold  text-4xl text-indigo-600">4.9/5</h2>
+                        <p class="leading-relaxed py-2 text-lg">Google Reviews Rating</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </section>
+    <!-- Our IMPACT -->
+
+    <!-- our organization -->
+    <section class="text-center">
+        <div>
+            <h1 class="title-font text-xl font-bold  text-indigo-500 mb-3 ">Our Offerings</h1>
+            <h1 class="text-gray-600 font-bold font-sans  text-4xl ">For Organisations</h1>
+        </div>
+
+        <section class="text-gray-600 body-font ">
+            <div class="container mx-auto flex px-36 py-20 md:flex-row flex-col items-center">
+                <div class="lg:max-w-lg lg:w-2/6 md:w-1/2 w-5/6 mb-10 md:mb-0">
+                    <img class="object-cover object-center rounded-lg " alt="hero" src="images/OfferingClasses.jpg">
+                </div>
+                <div
+                    class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+                    <h1 class="title-font sm:text-4xl text-3xl mb-4 font-semibold text-gray-600 font-sans">For Colleges
+                        and Universities
+
+                    </h1>
+                    <p class="mb-8 text-lg font-sans leading-relaxed">Boost your Campus Placements and help your
+                        students become <br>
+                        exceptional Software Engineers.</p>
+                    <div class="flex justify-center">
+                        <button
+                            class="inline-flex  border-0 py-2 px-6 focus:outline-none ring-1 ring-blue-500 rounded text-lg">Know
+                            More</button>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+    <!-- our organization -->
+    <!-- Hire From Us-->
+
+    <section class="text-gray-600 body-font">
+        <div class="container mx-auto flex px-20 py-16 md:flex-row flex-col items-center">
+            <div
+                class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+                <h1 class="title-font sm:text-4xl text-3xl mb-4 font-semibold text-gray-600 font-sans">Hire From Us
+
+                </h1>
+                <p class="mb-8 text-lg font-sans leading-relaxed">Hunting for Software Engineers with grit, passion and
+                    the right <br>
+                    technical skills for your organisation? Look no further.</p>
+                <div class="flex justify-center">
+                    <button
+                        class="inline-flex  border-0 py-2 px-6 focus:outline-none ring-1 ring-blue-500 rounded text-lg">Know
+                        More</button>
+
+                </div>
+            </div>
+            <div class="lg:max-w-lg lg:w-2/6 md:w-1/2 w-5/6">
+                <img class="object-cover object-center rounded" alt="hero" src="images/OfferingInterview.jpg">
+            </div>
+        </div>
+    </section>
+    <!-- Hire From Us-->
+    <!-- Where Our Alumni Work -->
+    <section class="text-gray-600 body-font">
+        <div class="container mx-auto flex px-20 py-16 md:flex-row flex-col ">
+            <div class="lg:flex-grow md:w-1/2 ml-16 w-full flex flex-col md:items-start  items-center text-center">
+                <p class="text-start py-4 text-indigo-600 text-xl font-semibold">Where Our Alumni Work</p>
+                <h1 class="title-font text-start sm:text-4xl text-3xl mb-4 font-bold text-gray-600 font-sans">Join the
+                    7,500+ Learners who <br> createdtheir Success Stories with <br> Programming Pathshala
+
+                </h1>
+                <p class="mb-8 text-lg font-sans text-start leading-relaxed">Our learners, be it College Students or
+                    Working Professionals - from <br> a diverse range of colleges, organisations and backgrounds, make
+                    it <br> to their dream Tech Jobs. Transitions from a service based <br> company to a Product based
+                    dream company or a non-coding <br> background to Top Coding Job are no longer supernatural events
+                    <br> for us.
+                </p>
+                <div class="flex justify-center">
+                    <button
+                        class="inline-flex  border-0 py-2 px-6 focus:outline-none ring-1 ring-blue-500 rounded text-lg">Know
+                        More</button>
+
+                </div>
+            </div>
+            <div class="lg:max-w-lg lg:w-2/6 md:w-1/2 w-5/6">
+                <img class="object-cover object-center rounded" alt="hero" src="images/company2.png">
+            </div>
+        </div>
+    </section>
+
+    <!-- Where Our Alumni Work -->
+
+    <!-- Our Success Stories -->
+    <section class="text-center">
+        <div>
+            <h1 class="title-font text-xl font-bold  text-indigo-500 mb-3 ">Our Success Stories</h1>
+            <h1 class="text-gray-600 font-bold font-sans  text-4xl ">What our learners say about us</h1>
+        </div>
+
+
+        <section class="text-gray-600 body-font">
+            <div class="container px-5 py-10 mx-auto flex flex-col">
+                <div class="lg:w-4/6 mx-auto">
+
+                    <div class="flex flex-col sm:flex-row mt-10">
+                        <div class="sm:w-1/3 text-center sm:pr-8 sm:py-8">
+                            <div
+                                class="w-40 h-40 rounded-full inline-flex items-center justify-center bg-gray-200 text-gray-400">
+                                <img alt="testimonial" class="w-72 rounded-full inline-block "
+                                    src="images/ZealVagadiaImg.jpg">
+                            </div>
+                            <div class="flex flex-col mt-2 items-center text-center justify-center">
+                                <img class="w-48" src="images/amazon.png">
+                            </div>
+                        </div>
+                        <div class="sm:w-2/3 sm:pl-8 sm:py-8   mt-4 pt-4 sm:mt-0 text-center sm:text-left">
+                            <svg class="z-10 relative w-10 -ml-20 text-gray-400 left-10" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg" fill="#c1b8b8">
+                                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                <g id="SVGRepo_iconCarrier">
+                                    <g>
+                                        <path fill="none" d="M0 0h24v24H0z"></path>
+                                        <path
+                                            d="M4.583 17.321C3.553 16.227 3 15 3 13.011c0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-3.335 1.804-3.987 4.145-4.247 5.621.537-.278 1.24-.375 1.929-.311 1.804.167 3.226 1.648 3.226 3.489a3.5 3.5 0 0 1-3.5 3.5c-1.073 0-2.099-.49-2.748-1.179zm10 0C13.553 16.227 13 15 13 13.011c0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-3.335 1.804-3.987 4.145-4.247 5.621.537-.278 1.24-.375 1.929-.311 1.804.167 3.226 1.648 3.226 3.489a3.5 3.5 0 0 1-3.5 3.5c-1.073 0-2.099-.49-2.748-1.179z">
+                                        </path>
+                                    </g>
+                                </g>
+                            </svg>
+                            <p class="leading-relaxed text-lg mb-4">Whatever am today, owe it to Programming Pathshala
+                                and their life changing course "Renaissance". I think it is pretty much all we need to
+                                build problem solving skills.</p>
+                            <h1 class="text-black font-semibold text-xl inline-flex items-center">Zeal Vagadia</h1><br>
+                            <h1 class="text-gray-800 font-semibold text-base inline-flex items-center">Software Engineer
+                                at Amazon</h1>
+                            <div class="text-center items-center ml-12 flex mt-10 space-x-4 ">
+                                <svg height="16px" width="16px" version="1.1" id="Capa_1"
+                                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    viewBox="0 0 31.955 31.955" xml:space="preserve" fill="#c1bebe">
+                                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                    <g id="SVGRepo_iconCarrier">
+                                        <g>
+                                            <path style="fill:#c1bebe;"
+                                                d="M27.25,4.655C20.996-1.571,10.88-1.546,4.656,4.706C-1.571,10.96-1.548,21.076,4.705,27.3 c6.256,6.226,16.374,6.203,22.597-0.051C33.526,20.995,33.505,10.878,27.25,4.655z">
+                                            </path>
+                                            <path style="fill:#c1bebe;"
+                                                d="M13.288,23.896l-1.768,5.207c2.567,0.829,5.331,0.886,7.926,0.17l-0.665-5.416 C17.01,24.487,15.067,24.5,13.288,23.896z M8.12,13.122l-5.645-0.859c-0.741,2.666-0.666,5.514,0.225,8.143l5.491-1.375 C7.452,17.138,7.426,15.029,8.12,13.122z M28.763,11.333l-4.965,1.675c0.798,2.106,0.716,4.468-0.247,6.522l5.351,0.672 C29.827,17.319,29.78,14.193,28.763,11.333z M11.394,2.883l1.018,5.528c2.027-0.954,4.356-1.05,6.442-0.288l1.583-5.137 C17.523,1.94,14.328,1.906,11.394,2.883z">
+                                            </path>
+                                            <circle style="fill:#c1bebe;" cx="15.979" cy="15.977" r="6.117"></circle>
+                                        </g>
+                                    </g>
+                                </svg>
+                                <svg height="16px" width="16px" version="1.1" id="Capa_1"
+                                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    viewBox="0 0 31.955 31.955" xml:space="preserve" fill="#575cf4">
+                                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                    <g id="SVGRepo_iconCarrier">
+                                        <g>
+                                            <path style="fill:#575cf4;"
+                                                d="M27.25,4.655C20.996-1.571,10.88-1.546,4.656,4.706C-1.571,10.96-1.548,21.076,4.705,27.3 c6.256,6.226,16.374,6.203,22.597-0.051C33.526,20.995,33.505,10.878,27.25,4.655z">
+                                            </path>
+                                            <path style="fill:#575cf4;"
+                                                d="M13.288,23.896l-1.768,5.207c2.567,0.829,5.331,0.886,7.926,0.17l-0.665-5.416 C17.01,24.487,15.067,24.5,13.288,23.896z M8.12,13.122l-5.645-0.859c-0.741,2.666-0.666,5.514,0.225,8.143l5.491-1.375 C7.452,17.138,7.426,15.029,8.12,13.122z M28.763,11.333l-4.965,1.675c0.798,2.106,0.716,4.468-0.247,6.522l5.351,0.672 C29.827,17.319,29.78,14.193,28.763,11.333z M11.394,2.883l1.018,5.528c2.027-0.954,4.356-1.05,6.442-0.288l1.583-5.137 C17.523,1.94,14.328,1.906,11.394,2.883z">
+                                            </path>
+                                            <circle style="fill:#575cf4;" cx="15.979" cy="15.977" r="6.117"></circle>
+                                        </g>
+                                    </g>
+                                </svg>
+                                <svg height="16px" width="16px" version="1.1" id="Capa_1"
+                                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    viewBox="0 0 31.955 31.955" xml:space="preserve" fill="#c1bebe">
+                                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                    <g id="SVGRepo_iconCarrier">
+                                        <g>
+                                            <path style="fill:#c1bebe;"
+                                                d="M27.25,4.655C20.996-1.571,10.88-1.546,4.656,4.706C-1.571,10.96-1.548,21.076,4.705,27.3 c6.256,6.226,16.374,6.203,22.597-0.051C33.526,20.995,33.505,10.878,27.25,4.655z">
+                                            </path>
+                                            <path style="fill:#c1bebe;"
+                                                d="M13.288,23.896l-1.768,5.207c2.567,0.829,5.331,0.886,7.926,0.17l-0.665-5.416 C17.01,24.487,15.067,24.5,13.288,23.896z M8.12,13.122l-5.645-0.859c-0.741,2.666-0.666,5.514,0.225,8.143l5.491-1.375 C7.452,17.138,7.426,15.029,8.12,13.122z M28.763,11.333l-4.965,1.675c0.798,2.106,0.716,4.468-0.247,6.522l5.351,0.672 C29.827,17.319,29.78,14.193,28.763,11.333z M11.394,2.883l1.018,5.528c2.027-0.954,4.356-1.05,6.442-0.288l1.583-5.137 C17.523,1.94,14.328,1.906,11.394,2.883z">
+                                            </path>
+                                            <circle style="fill:#c1bebe;" cx="15.979" cy="15.977" r="6.117"></circle>
+                                        </g>
+                                    </g>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="flex justify-center">
+            <button
+                class="inline-flex  border-0 py-2 px-6 focus:outline-none ring-1 ring-blue-500 rounded text-base font-semibold text-blue-700">Read
+                More Stories</button>
+        </div>
+    </section>
+
+    <!-- Our Success Stories -->
+    <!-- Our Leadership Team -->
+    <section class="text-center py-20 mt-20">
+        <div class="py-10">
+            <h1 class="title-font text-xl font-bold  text-indigo-500 mb-3 ">Our Leadership Team</h1>
+            <h1 class="text-gray-600 font-bold font-Fsans  text-4xl ">Together we make a difference</h1>
+        </div>
+        <section class="text-gray-600 bg-indigo-300 body-font">
+            <div class="container px-20 py-24 mx-auto">
+                <div class="flex  flex-wrap -m-4 ">
+                    <div class="px-4 md:w-1/3 mx-auto">
+                        <div class="flex-col bg-white h-full border-2 relative z-0 border-gray-200 border-opacity-60  ">
+                            <div class="px-4 py-4">
+                                <img class="h-40 w-40 mx-auto items-center justify-center relative z-40 bottom-16 rounded-full object-cover"
+                                    src="images/VivekTeamImg.jpg" alt="blog">
+                                <div class="-top-10 relative ">
+                                    <h1 class="title-font text-lg font-medium text-gray-900 ">Vivekanand
+                                        Vivek</h1>
+                                    <h2
+                                        class="tracking-widest text-sm  title-font mb-4 font-medium py-3 text-gray-500 ">
+                                        Co-Founder, Programming Pathshala
+                                    </h2>
+                                    <p class="leading-relaxed text-center mb-3">Vivekanand Vivek, an outstanding
+                                        teacher, <br> has
+                                        graduated
+                                        from IIT BHU and worked at <br> Amazon, before quitting it to follow his <br>
+                                        passion.
+                                        Off-camera he is witty and makes <br> sure to burst everyone in laughter. <br>
+                                    </p>
+                                    <p class="leading-relaxed font-sans font-normal text-center mb-3">
+                                        In a classroom, he is a teacher students <br> love to learn from. Folks are
+                                        usually
+                                        in
+                                        awe <br> with his skills to explain difficult concepts <br> so easily.</p>
+                                    <div class="flex my-4 items-center text-center justify-center flex-wrap ">
+                                        <svg height="40px" width="40px" version="1.1" id="Layer_1"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 291.319 291.319"
+                                            xml:space="preserve" fill="#000000">
+                                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round"
+                                                stroke-linejoin="round"></g>
+                                            <g id="SVGRepo_iconCarrier">
+                                                <g>
+                                                    <path style="fill:#0E76A8;"
+                                                        d="M145.659,0c80.45,0,145.66,65.219,145.66,145.66s-65.21,145.659-145.66,145.659S0,226.1,0,145.66 S65.21,0,145.659,0z">
+                                                    </path>
+                                                    <path style="fill:#FFFFFF;"
+                                                        d="M82.079,200.136h27.275v-90.91H82.079V200.136z M188.338,106.077 c-13.237,0-25.081,4.834-33.483,15.504v-12.654H127.48v91.21h27.375v-49.324c0-10.424,9.55-20.593,21.512-20.593 s14.912,10.169,14.912,20.338v49.57h27.275v-51.6C218.553,112.686,201.584,106.077,188.338,106.077z M95.589,100.141 c7.538,0,13.656-6.118,13.656-13.656S103.127,72.83,95.589,72.83s-13.656,6.118-13.656,13.656S88.051,100.141,95.589,100.141z">
+                                                    </path>
+                                                </g>
+                                            </g>
+                                        </svg>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="px-4 md:w-1/3 mx-auto">
+                        <div class="flex-col bg-white h-full border-2 relative z-0 border-gray-200 border-opacity-60  ">
+                            <div class="px-4 py-4">
+
+                                <img class="h-40 w-40 mx-auto items-center justify-center relative z-40 bottom-16 rounded-full object-cover"
+                                    src="images/BharathTeamImg.jpg" alt="blog">
+                                <div class="-top-10 relative ">
+                                    <h1 class="title-font text-lg font-medium text-gray-900 ">Bharat Khanna</h1>
+                                    <h2
+                                        class="tracking-widest text-sm  title-font mb-4 font-medium py-3 text-gray-500 ">
+                                        Co-Founder, Programming Pathshala
+                                    </h2>
+                                    <p class="leading-relaxed text-center mb-8">Bharat worked at Tower Research Capital
+                                        <br> after graduating from IIT in 2018. Foodie at <br>
+                                        heart, he loves to build-courses and tech <br> alike.<br>
+                                    </p>
+                                    <p class="leading-relaxed font-sans font-normal text-center mb-3">
+                                        For him every problem can be solved if it is given adequate effort, attention
+                                        and time. He has been a candidate master at Codeforces and one of the best
+                                        teachers of coding to thousands of students.</p>
+                                    <div class="flex my-4 items-center text-center justify-center flex-wrap ">
+                                        <svg height="40px" width="40px" version="1.1" id="Layer_1"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 291.319 291.319"
+                                            xml:space="preserve" fill="#000000">
+                                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round"
+                                                stroke-linejoin="round"></g>
+                                            <g id="SVGRepo_iconCarrier">
+                                                <g>
+                                                    <path style="fill:#0E76A8;"
+                                                        d="M145.659,0c80.45,0,145.66,65.219,145.66,145.66s-65.21,145.659-145.66,145.659S0,226.1,0,145.66 S65.21,0,145.659,0z">
+                                                    </path>
+                                                    <path style="fill:#FFFFFF;"
+                                                        d="M82.079,200.136h27.275v-90.91H82.079V200.136z M188.338,106.077 c-13.237,0-25.081,4.834-33.483,15.504v-12.654H127.48v91.21h27.375v-49.324c0-10.424,9.55-20.593,21.512-20.593 s14.912,10.169,14.912,20.338v49.57h27.275v-51.6C218.553,112.686,201.584,106.077,188.338,106.077z M95.589,100.141 c7.538,0,13.656-6.118,13.656-13.656S103.127,72.83,95.589,72.83s-13.656,6.118-13.656,13.656S88.051,100.141,95.589,100.141z">
+                                                    </path>
+                                                </g>
+                                            </g>
+                                        </svg>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="px-4  md:w-1/3 mx-auto">
+                        <div class="flex-col bg-white h-full border-2 relative z-0 border-gray-200 border-opacity-60  ">
+                            <div class="px-4 py-4">
+
+                                <img class="h-40 w-40 mx-auto items-center justify-center relative z-40 bottom-16 rounded-full object-cover"
+                                    src="images/AnoopTeamImg.jpg" alt="blog">
+                                <div class="-top-10 relative ">
+                                    <h1 class="title-font text-lg font-medium text-gray-900 ">Vivekanand
+                                        Vivek</h1>
+                                    <h2
+                                        class="tracking-widest text-sm  title-font mb-4 font-medium py-3 text-gray-500 ">
+                                        Co-Founder, Programming Pathshala
+                                    </h2>
+                                    <p class="leading-relaxed text-center mb-8">Anoop is an IIT BHU graduate, with a
+                                        Masters <br> in Tulleling from University of Warwick, UK.
+
+                                    </p>
+                                    <p class="leading-relaxed font-sans font-normal  mb-8">
+                                        He is a impact driven businessman in spirit <br> and, a spiritual at heart. He
+                                        loves solving <br> complex problems, speaking to students, <br> and is keen to
+                                        help folks out in any way <br> possible.</p>
+                                    <div class="flex my-4 items-center text-center justify-center flex-wrap ">
+                                        <svg height="40px" width="40px" version="1.1" id="Layer_1"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 291.319 291.319"
+                                            xml:space="preserve" fill="#000000">
+                                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round"
+                                                stroke-linejoin="round"></g>
+                                            <g id="SVGRepo_iconCarrier">
+                                                <g>
+                                                    <path style="fill:#0E76A8;"
+                                                        d="M145.659,0c80.45,0,145.66,65.219,145.66,145.66s-65.21,145.659-145.66,145.659S0,226.1,0,145.66 S65.21,0,145.659,0z">
+                                                    </path>
+                                                    <path style="fill:#FFFFFF;"
+                                                        d="M82.079,200.136h27.275v-90.91H82.079V200.136z M188.338,106.077 c-13.237,0-25.081,4.834-33.483,15.504v-12.654H127.48v91.21h27.375v-49.324c0-10.424,9.55-20.593,21.512-20.593 s14.912,10.169,14.912,20.338v49.57h27.275v-51.6C218.553,112.686,201.584,106.077,188.338,106.077z M95.589,100.141 c7.538,0,13.656-6.118,13.656-13.656S103.127,72.83,95.589,72.83s-13.656,6.118-13.656,13.656S88.051,100.141,95.589,100.141z">
+                                                    </path>
+                                                </g>
+                                            </g>
+                                        </svg>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <!-- contribute to the mission -->
+    <section class="text-gray-600 body-font">
+        <div class="container mx-auto flex px-10 py-16 md:flex-row flex-col ">
+            <div class=" ml-16 w-full flex flex-col md:items-start  items-center text-center">
+                <p class="text-start py-4 text-indigo-600 text-xl font-semibold">Contribute to the Mission</p>
+                <h1 class="title-font text-start sm:text-4xl text-3xl mb-4 font-bold text-gray-600 font-sans">Be a
+                    Mentor
+                </h1>
+                <p class="mb-8 text-lg font-sans py-6 text-black text-start leading-relaxed">Join us in this mission of
+                    enabling access
+                    to Tech Education, and creating <br> incredible learning experiences. For it is not just about
+                    getting a tech job, <br> but fundamentally shifting the way people see themselves and their <br>
+                    capabilities.
+                </p>
+                <p class="mb-8 text-lg font-sans text-black text-start leading-relaxed">Are you great at something or
+                    anything and want to teach with us?
+                </p>
+                <div class="flex justify-center">
+                    <button
+                        class="inline-flex bg-gradient-to-r from-blue-700 to-neutral-400 text-white items-center font-semibold rounded-md text-xl h-12  px-6 mt-4 md:mt-0">Teach
+                        with us
+
+                    </button>
+                </div>
+            </div>
+            <div class=" lg:w-full ">
+                <section class="text-gray-600 body-font ">
+                    <div class="containermx-auto  flex flex-col">
+                        <div class="w-full ring-1  ring-gray-300 shadow-indigo-600  drop-shadow-2xl px-8 mx-auto">
+                            <div class="flex flex-col sm:flex-row ">
+                                <div class="sm:w-1/3 text-center sm:pr-8 sm:py-8">
+                                    <div class="w-40 h-40  inline-flex items-center justify-center">
+                                        <img alt="testimonial" class="w-72  z-20 right-20 top-2 relative inline-block "
+                                            src="images/DeepakGupthaMentor.jpg">
+                                    </div>
+                                </div>
+                                <div class="sm:w-2/3   mt-4   sm:mt-0 text-center sm:text-left">
+                                    <svg class="z-10 relative top-6 m w-10 -ml-20 text-gray-400 left-8"
+                                        viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#c1b8b8">
+                                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round">
+                                        </g>
+                                        <g id="SVGRepo_iconCarrier">
+                                            <g>
+                                                <path fill="none" d="M0 0h24v24H0z"></path>
+                                                <path fill="#2a00c2"
+                                                    d="M4.583 17.321C3.553 16.227 3 15 3 13.011c0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-3.335 1.804-3.987 4.145-4.247 5.621.537-.278 1.24-.375 1.929-.311 1.804.167 3.226 1.648 3.226 3.489a3.5 3.5 0 0 1-3.5 3.5c-1.073 0-2.099-.49-2.748-1.179zm10 0C13.553 16.227 13 15 13 13.011c0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-3.335 1.804-3.987 4.145-4.247 5.621.537-.278 1.24-.375 1.929-.311 1.804.167 3.226 1.648 3.226 3.489a3.5 3.5 0 0 1-3.5 3.5c-1.073 0-2.099-.49-2.748-1.179z">
+                                                </path>
+                                            </g>
+                                        </g>
+                                    </svg>
+                                    <p class="leading-relaxed text-black text-lg mb-4 ">I have been mentoring and
+                                        teaching at Programming Pathshala from 2 years and it has been incredible to
+                                        interact and learn along with very keen and enthusiastic folks. I always wanted
+                                        to teach and I'm so happy to be a part of this initiative.</p>
+                                    <div class="py-10">
+                                        <h1 class="text-black font-semibold text-xl inline-flex items-center">Deepak
+                                            Gupta</h1><br>
+                                        <h1 class="text-gray-800 font-semibold text-base inline-flex items-center">
+                                            Senior Developer at Rev Dev (Ex-Google, Amazon, & Rubrik)</h1>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </section>
+    <!--contribute to the mission-->
+    <!--Our Blogs
+    -->
+    <section class="text-center py-6 mt-20">
+        <div class="py-10">
+            <h1 class="title-font text-xl font-bold  text-indigo-500 mb-3 ">Our Blogs</h1>
+            <h1 class="text-gray-600 font-bold font-Fsans  text-4xl ">Read inspiring stories and tech blogs</h1>
+            <p class="leading-5 text-base text-gray-700 py-4 mt-4">Inspiring and uplifting ideas which will help you
+                feel positive about your career.</p>
+        </div>
+
+        <section class="text-gray-600 body-font">
+            <div class="container py-10 mx-auto px-20">
+                <div class="flex flex-wrap sm:-m-4 justify-center -mx-4 -mb-10 -mt-4">
+                    <div class="md:w-1/4 m-10 sm:mb-0 mb-6 ring-1 ring-gray-400 drop-shadow-xl shadow-blue-800">
+                        <div class="rounded-lg h-64 overflow-hidden">
+                            <img alt="content" class="object-cover object-center h-full w-full" src="images/img1.png">
+                        </div>
+                        <h2 class="text-xl  text-start font-medium title-font px-6 mb-4 text-gray-700 mt-5">Guide from
+                            an Ultimate tech <br> Career </h2>
+
+                        <p
+                            class="text-base leading-relaxed text-gray-600 text-start font-normal font-sans px-6 mt-4 mb-8">
+                            It is a long established fact that a <br> reader will be distracted by the <br> readable
+                            content of a page when <br> looking at its layout...</p>
+                    </div>
+
+                    <div class="md:w-1/4 m-10 sm:mb-0 mb-6 ring-1 drop-shadow-xl shadow-blue-800 ring-gray-400">
+                        <div class="rounded-lg h-64 overflow-hidden">
+                            <img alt="content" class="object-cover object-center h-full w-full" src="images/img2.png">
+                        </div>
+                        <h2 class="text-xl  text-start font-medium title-font px-6 mb-4 text-gray-700 mt-5">10 Most
+                            Common Mistakes To Avoid While Preparing for FAANG Company Coding Interviews!</h2>
+
+                        <p
+                            class="text-base leading-relaxed text-gray-600 text-start font-normal font-sans px-6 mt-4 mb-8">
+                            It is a long established fact that a reader will be distracted by the readable content of a
+                            page when looking at its layout.....</p>
+                    </div>
+
+
+                    <div class="md:w-1/4 m-10 sm:mb-0 mb-6 ring-1 drop-shadow-xl shadow-blue-800 ring-gray-400">
+                        <div class="rounded-lg h-64 overflow-hidden">
+                            <img alt="content" class="object-cover object-center h-full w-full" src="images/img3.png">
+                        </div>
+                        <h2 class="text-xl  text-start font-medium title-font px-6 mb-4 text-gray-700 mt-5">How to Ace
+                            your next Data Structures and Algorithms Interview? </h2>
+
+                        <p
+                            class="text-base leading-relaxed text-gray-600 text-start font-normal font-sans px-6 mt-4 mb-8">
+                            It is a established fact that a reader will be distracted by the readable content of a page
+                            when looking at its layout.......</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="flex justify-center">
+            <button
+                class="inline-flex  border-0 py-2 px-6 focus:outline-none ring-1 ring-blue-500 rounded text-base font-semibold text-blue-700">Read
+                More blogs</button>
+        </div>
+
+    </section>
+
+
+    <!-- Our Bags -->
+
+    <section class="text-gray-600 body-font">
+        <div class="container bg-slate-200  px-44 py-24 mx-auto flex flex-wrap items-center">
+            <div class="lg:w-3/5 md:w-1/2 md:pr-16 lg:pr-0 pr-0">
+                <img src="images/GetInTouchSvg.png">
+            </div>
+            <div class="lg:w-2/6 md:w-1/2  rounded-lg py-4 flex flex-col md:ml-auto w-full mt-10 md:mt-0">
+                <h2 class="text-gray-600 text-3xl font-medium title-font mb-5">Get In Touch</h2>
+                <div class="relative mb-4">
+                    <label for="full-name" class="leading-7 text-base mb-4 text-gray-800">Full Name</label>
+                    <input type="text" id="full-name" name="full-name"
+                        class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                </div>
+                <div class="relative mb-4">
+                    <label for="email" class="leading-7 text-base mb-4 text-gray-800">Email</label>
+                    <input type="email" id="email" name="email"
+                        class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                </div>
+                <div class="relative mb-4">
+                    <label for="email" class="leading-7 text-base mb-4 text-gray-800 ">Query Message</label>
+                    <input type="text"
+                        class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-2 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                </div>
+                <button
+                    class="inline-flex bg-gradient-to-r from-blue-700 to-neutral-400 text-white items-center font-semibold rounded-md text-xl h-12 w-40 text-center px-2 mt-4 md:mt-0">Contact
+                    Us
+                </button>
+
+            </div>
+        </div>
+    </section>
+    <!-- Our Bags -->
+
+    <section class="text-center mt-16">
+        <div class="py-10 drop-shadow-3xl border border-b-2 shadow-slate-900">
+            <h1 class="text-gray-600 font-bold font-Fsans py-6  text-4xl ">Make Your Own Success Story!</h1>
+            <h1 class="title-font text-2xl font-bold  text-indigo-500 mb-10 ">Start Your 7 Days Free Trial Now!</h1>
+            <button
+                class="inline-flex bg-gradient-to-r from-blue-700 to-neutral-400 text-white items-center font-semibold rounded-md text-xl h-12 w-40 text-center justify-center px-2 mt-4 md:mt-0">Start
+                Free trial
+            </button>
+
+        </div>
+    </section>
+
+
+    <footer class="text-gray-600 body-font ">
+        <div class="flex">
+            <div class="w-full ml-20  items-center justify-center mx-auto ">
+                <div class="flex-row mb-10">
+                    <h1 class="text-4xl text-zinc-600 font-semibold py-10 ">Want to know more <br>
+                        about our courses?</h1>
+                        <p class="leading-6 font-medium text-gray-600">Lets hear all about it <span><u>Contact Us</u></span></p>
+                </div>
+                <div class="flex-row">
+                    <div class="flex-grow flex  md:pr-20 -mb-10 md:text-left text-center order-first">
+                        <div class=" w-full ">
+                            <nav class="list-none mb-10">
+                                <li>
+                                    <a class="text-gray-600 hover:text-gray-800">Home</a>
+                                </li>
+                                <li>
+                                    <a class="text-gray-600 hover:text-gray-800">Renaissance</a>
+                                </li>
+                                <li>
+                                    <a class="text-gray-600 hover:text-gray-800">Low Level Design</a>
+                                </li>
+                                <li>
+                                    <a class="text-gray-600 hover:text-gray-800">Programming in C++</a>
+                                </li>
+                                <li>
+                                    <a class="text-gray-600 hover:text-gray-800">Python</a>
+                                </li>
+
+                            </nav>
+                        </div>
+                        <div class=" w-full px-4">
+                            <nav class="list-none mb-10">
+                                <li>
+                                    <a class="text-gray-600 hover:text-gray-800">Frontend Development</a>
+                                </li>
+                                <li>
+                                    <a class="text-gray-600 hover:text-gray-800">Stories</a>
+                                </li>
+                                <li>
+                                    <a class="text-gray-600 hover:text-gray-800">Blogs</a>
+                                </li>
+                                <li>
+                                    <a class="text-gray-600 hover:text-gray-800">Teach with Us</a>
+                                </li>
+                                <li>
+                                    <a class="text-gray-600 hover:text-gray-800">Get Scholarship</a>
+                                </li>
+                            </nav>
+                        </div>
+                        <div class="w-full px-4">
+
+                            <nav class="list-none mb-10">
+                                <li>
+                                    <a class="text-gray-600 hover:text-gray-800">Term & Condition</a>
+                                </li>
+                                <li>
+                                    <a class="text-gray-600 hover:text-gray-800">Refund Policy</a>
+                                </li>
+
+                            </nav>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-grow w-full">
+                <div class="w-full ml-10 text-center  mt-5">
+                    <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+                        <img class="w-1/2" src="images/pplogo2.png">
+                        <!-- <span class="ml-3 text-xl">Tailblocks</span> -->
+                    </a>
+                    <p class="mt-2 py-10 text-start text-base text-gray-500">We help our users to build skills, which
+                        are
+                        valued and
+                        enabling
+                        them to believe in <br> themselves.</p>
+                    <div class="justify-start items-start">
+                        <span class="flex items-start justify-start">
+                            <a class="ml-3 text-gray-500">
+                                <svg fill="currentColor" stroke="currentColor" stroke-linecap="round"
+                                    stroke-linejoin="round" stroke-width="0" class="w-20 h-20" viewBox="0 0 24 24">
+                                    <path stroke="none"
+                                        d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z">
+                                    </path>
+                                    <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                                </svg>
+                            </a>
+                            <a class="ml-3 text-gray-500">
+                                <svg viewBox="0 -3.5 24 24" class="h-20 w-20" id="meteor-icon-kit__solid-youtube"
+                                    fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                    <g id="SVGRepo_iconCarrier">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M23.4593 2.63137C23.1843 1.59561 22.3738 0.77987 21.3447 0.50304C19.4795 0 12 0 12 0C12 0 4.52059 0 2.65529 0.50304C1.62622 0.77991 0.815739 1.59561 0.540659 2.63137C0.040863 4.50876 0.040863 8.4258 0.040863 8.4258C0.040863 8.4258 0.040863 12.3427 0.540659 14.2201C0.815739 15.2559 1.62622 16.0376 2.65529 16.3145C4.52059 16.8175 12 16.8175 12 16.8175C12 16.8175 19.4794 16.8175 21.3447 16.3145C22.3738 16.0376 23.1843 15.2559 23.4593 14.2201C23.9591 12.3427 23.9591 8.4258 23.9591 8.4258C23.9591 8.4258 23.9591 4.50876 23.4593 2.63137zM9.5538 11.9821V4.86942L15.8051 8.4258L9.5538 11.9821z"
+                                            fill="#707475"></path>
+                                    </g>
+                                </svg>
+                            </a>
+                            <a class="text-gray-500">
+                                <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    class="w-20 h-20" viewBox="0 0 24 24">
+                                    <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                                </svg>
+                            </a>
+
+                            <a class="ml-3 text-gray-500">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" class="w-20 h-20" viewBox="0 0 24 24">
+                                    <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                                    <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                                </svg>
+                            </a>
+                            <a class="ml-3 text-gray-500">
+                                <svg viewBox="0 0 24 24" class="h-20 w-20"  version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>telegram_fill</title> <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"> <g id="Brand" transform="translate(-672.000000, -48.000000)"> <g id="telegram_fill" transform="translate(672.000000, 48.000000)"> <path d="M24,0 L24,24 L0,24 L0,0 L24,0 Z M12.5934901,23.257841 L12.5819402,23.2595131 L12.5108777,23.2950439 L12.4918791,23.2987469 L12.4918791,23.2987469 L12.4767152,23.2950439 L12.4056548,23.2595131 C12.3958229,23.2563662 12.3870493,23.2590235 12.3821421,23.2649074 L12.3780323,23.275831 L12.360941,23.7031097 L12.3658947,23.7234994 L12.3769048,23.7357139 L12.4804777,23.8096931 L12.4953491,23.8136134 L12.4953491,23.8136134 L12.5071152,23.8096931 L12.6106902,23.7357139 L12.6232938,23.7196733 L12.6232938,23.7196733 L12.6266527,23.7031097 L12.609561,23.275831 C12.6075724,23.2657013 12.6010112,23.2592993 12.5934901,23.257841 L12.5934901,23.257841 Z M12.8583906,23.1452862 L12.8445485,23.1473072 L12.6598443,23.2396597 L12.6498822,23.2499052 L12.6498822,23.2499052 L12.6471943,23.2611114 L12.6650943,23.6906389 L12.6699349,23.7034178 L12.6699349,23.7034178 L12.678386,23.7104931 L12.8793402,23.8032389 C12.8914285,23.8068999 12.9022333,23.8029875 12.9078286,23.7952264 L12.9118235,23.7811639 L12.8776777,23.1665331 C12.8752882,23.1545897 12.8674102,23.1470016 12.8583906,23.1452862 L12.8583906,23.1452862 Z M12.1430473,23.1473072 C12.1332178,23.1423925 12.1221763,23.1452606 12.1156365,23.1525954 L12.1099173,23.1665331 L12.0757714,23.7811639 C12.0751323,23.7926639 12.0828099,23.8018602 12.0926481,23.8045676 L12.108256,23.8032389 L12.3092106,23.7104931 L12.3186497,23.7024347 L12.3186497,23.7024347 L12.3225043,23.6906389 L12.340401,23.2611114 L12.337245,23.2485176 L12.337245,23.2485176 L12.3277531,23.2396597 L12.1430473,23.1473072 Z" id="MingCute" fill-rule="nonzero"> </path> <path d="M19.7773,4.42984 C20.8652,3.97177 22.0315,4.8917 21.8394,6.05639 L19.5705,19.8131 C19.3517,21.1395 17.8949,21.9006 16.678,21.2396 C15.6597,20.6865 14.1489,19.8352 12.7873,18.9455 C12.1074,18.5012 10.0255,17.0766 10.2814,16.0625 C10.5002,15.1954 14.0001,11.9375 16.0001,10 C16.7857,9.23893 16.4279,8.79926 15.5001,9.5 C13.1985,11.2383 9.50332,13.8812 8.28136,14.625 C7.20323,15.2812 6.64031,15.3932 5.96886,15.2812 C4.74273,15.0769 3.60596,14.7605 2.67788,14.3758 C1.42351,13.8558 1.48461,12.132 2.67703,11.63 L19.7773,4.42984 Z" id="路径" fill="#787a7d"> </path> </g> </g> </g> </g></svg>
+                            </a>
+
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-gray-100">
+            <div class="container mx-auto py-4 px-5 flex justify-center text-center">
+                <p class="text-gray-500 text-xs text-center sm:text-left">All rights reserved with @Programming PathshalaAll rights reserved with @Programming Pathshala
+                    <a href="#" rel="noopener noreferrer" class="text-gray-600 ml-1"
+                        target="_blank"></a>
+                </p>
+               
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
